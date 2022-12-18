@@ -213,7 +213,7 @@ export default function Home() {
 					<div className="bg-gray-500 p-4  w-[350px] mx-auto mt-8">
 						<p className="text-xl font-semibold">Info</p>
                         <p className="mt-2">I made this app to learn English words using flash cards.</p>
-                        <p className="mt-2">You see a word and if you don't remember the translation, then you can look at it, so you can quickly remember a lot of words</p>
+                        <p className="mt-2">You see a word and if you do not remember the translation, then you can look at it, so you can quickly remember a lot of words</p>
 					</div>
 				</div>
 			)}
