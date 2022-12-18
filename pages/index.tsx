@@ -163,8 +163,9 @@ export default function Home() {
 											f.word.length > 0 &&
 											f.translate.length > 0
 									)
-									.map((item: any) => (
+									.map((item: any,index:any) => (
 										<div
+                                            key={index}
 											onClick={() => chageState(item)}
 											className={`cursor-pointer text-xl border-b-[1px] border-[#ddd] select-none py-4 px-2 ${
 												item.seeWord
